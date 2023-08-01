@@ -1,0 +1,161 @@
+body 
+{
+  
+  font-family: 'Times New Roman', serif;
+  margin: 0;
+  background-color: #7B3F00;
+  background-image: linear-gradient(0deg, #7B3F00, white);
+}
+h2{
+	color:black;
+}
+header 
+{
+  background: linear-gradient(to right, #ff0800, #ff7733);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 28px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+}
+#left
+{    
+ float: left;  
+}  
+nav 
+{
+  display: flex;
+  justify-content: right;
+}
+nav ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li 
+{
+  display: inline-block;
+  margin: 0 10px;
+}
+nav a 
+{
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+nav a:hover 
+{
+  background-color: #333;
+  color: #fff;
+}
+section 
+{
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;  
+}
+section h2 
+{
+  margin-top: 0;
+  
+}
+.gallery-image 
+{
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  border: 1px solid #ccc;
+  transition: all 0.3s ease-in-out;
+}
+.gallery-image:hover 
+{
+  transform: scale(1.1);
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+footer 
+{
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  
+  background-image: url("redbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.footer-logo 
+{
+  display: block;
+  margin: 40px auto;
+  float: right;
+
+}
+.contact
+{
+	float: right;
+	display: block;
+}
+.company-info p {
+    margin: 20px;
+	text-align:justify;
+	color:black;
+}
+.contact-form 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form button 
+{
+  display: block;
+  margin: 5px;
+}
+
+.contact-form label {
+  width: 100%;
+  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+  text-align:center;
+}
+
+.contact-form input {
+  width: 30%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact-form button {
+  background-color: gray;
+  border: none;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover 
+{
+  background-color: #333;
+  color: #fff;
+}
+
